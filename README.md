@@ -1,4 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to test maanbgement site
+
+The project was created solely to support administering test for courses that i teach at Akatsi College of Education.
+
+Until now, it is maintained only by Samuel Dodzi Akama. 
+
+It may be developed into a full application in the coming days
+
 
 You can use the [editor on GitHub](https://github.com/dodzison/gns_akatsi_coe/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
