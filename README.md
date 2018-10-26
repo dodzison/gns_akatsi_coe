@@ -1,4 +1,4 @@
-## Welcome to test maanbgement site
+## Welcome to my test management site
 
 The project was created solely to support administering test for courses that i teach at Akatsi College of Education.
 
