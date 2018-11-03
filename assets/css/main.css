@@ -8,6 +8,13 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+/* Submission form marging */
+.mymailform{
+  margin-right: 5px;
+  margin-left: 3px;
+}
+
+
 .myimgcenter {
     display: block;
     margin-left: auto;

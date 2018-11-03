@@ -1,218 +1,257 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-	<head>
-		<title>Home | S.D. Akama</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	</head>
-	<body>
 
-		<!-- Header -->
-			<header id="header">
-				<nav class="left">
-					<a href="#menu"><span>Menu</span></a>
-				</nav>
-				<a href="index.html" class="logo">Samuel Dodzi Akama</a>
-			</header>
+<head>
+	<title>Home | S.D. Akama</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
-		<!-- Menu -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About me</a></li>
-				</ul>
+<body>
 
-			</nav>
+	<!-- Header -->
+	<header id="header">
+		<nav class="left">
+			<a href="#menu"><span>Menu</span></a>
+		</nav>
+		<a href="index.html" class="logo">Samuel Dodzi Akama</a>
+	</header>
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="content">
-					<h1>Welcome, dear student</h1>
-					<p style="color:dimgray">This website is for administering quizzes for courses being taught by Samuel Dodzi Akama.<br> Click on the button below to take a quiz</p>
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About me</a></li>
+		</ul>
 
-					<ul class="actions">
-						<li><a href="#" class="button scrolly" data-toggle="modal" data-target="#modalnotice">Take a quiz</a></li>
-					</ul>
+	</nav>
+
+	<!-- Banner -->
+	<section id="banner">
+		<div class="content">
+			<h1>Welcome, dear student</h1>
+			<p style="color:dimgray">This website is for administering quizzes for courses being taught by Samuel Dodzi Akama.<br> Click on the button below to take a quiz</p>
+
+			<ul class="actions">
+				<li><a href="#" class="button scrolly" data-toggle="modal" data-target="#modalnotice">Take a quiz</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalnotice" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title text-center">I am yet to upload the next quiz.<br>Please, visit again to take the quiz</h4>
 				</div>
-			</section>
-
-			<!-- Modal -->
-		   <div class="modal fade" id="modalnotice" role="dialog">
-		     <div class="modal-dialog">
-
-		       <!-- Modal content-->
-		       <div class="modal-content">
-		         <div class="modal-header">
-		           <button type="button" class="close" data-dismiss="modal">&times;</button>
-		           <h4 class="modal-title text-center">I am yet to upload the next quiz.<br>Please, visit again to take the quiz</h4>
-		         </div>
-		         <div class="modal-body">
-		           <p class="text-center">You may want to get in touch with me: <br>
-				   <a href="https://api.whatsapp.com/send?phone=233508400300"><span class="icon fa-whatsapp">&nbsp;</span><span class="icon fa-phone"></span> (050) 840-0300</a>
-			</p>
-		         </div>
-						 <!-- <div class="modal-footer">
+				<div class="modal-body">
+					<p class="text-center">You may want to get in touch with me: <br>
+						<a href="https://api.whatsapp.com/send?phone=233508400300"><span class="icon fa-whatsapp">&nbsp;</span><span class="icon fa-phone"></span> (050) 840-0300</a>
+					</p>
+				</div>
+				<!-- <div class="modal-footer">
         			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       			</div> -->
-		       </div>
-
-		     </div>
-		   </div>
-
-<!-- Modadl quiz available -->
-<!-- Modal -->
- <div class="modal fade" id="modalquiz" role="dialog">
-	 <div class="modal-dialog">
-
-		 <!-- Modal content-->
-		 <div class="modal-content">
-			 <div class="modal-header">
-				 <button type="button" class="close" data-dismiss="modal">&times;</button>
-				 <h4 class="modal-title text-center">Quiz one is available to take.<br>Please, visit again to take the next quiz</h4>
-			 </div>
-			 <div class="modal-body">
-				 <p class="text-center">You may want to get in touch with me</p>
-			 </div>
-			 <div class="modal-footer">
-				<button type="submit" class="btn btn-default" data-dismiss="modal"><a href="takequiz.html" target"_self">submit</a></button>
 			</div>
-		 </div>
 
-	 </div>
- </div>
+		</div>
+	</div>
 
+	<!-- Modadl quiz available -->
+	<!-- Modal -->
+	<div class="modal fade" id="mymail" role="dialog">
+		<div class="modal-dialog">
 
-
-
-		<!-- One -->
-
-			<section id="one" class="wrapper">
-				<div class="inner flex flex-3">
-					<div class="flex-item left">
-						<div>
-							<h3>Prompt feedback</h3>
-							<h2><small>Quiz scores may be displayed on a screen or sent to student&apos;s email address</small></h2>
-						</div>
-						<div>
-							<h3>convenient</h3>
-							<h2><small>Quizzes can be taken at anyplace that a student finds convenient</small></h2>
-						</div>
-					</div>
-					<div class="flex-item image fit round">
-						<img src="images/pic01.jpg" alt="" />
-					</div>
-					<div class="flex-item right">
-						<div>
-							<h3>Mobile friendly</h3>
-							<h2><small>The quiz page is supported by multiple devices. <br>The page is lightweight and loads fast.</small></h2>
-						</div>
-						<div>
-							<h3>Timed quizzes</h3>
-							<h2><small>Quiz responses can not be submitted after some stipulated time</small></h2>
-						</div>
-					</div>
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title text-center">Send me an mail</h4>
 				</div>
-			</section>
 
-		<!-- Two -->
-			<section id="two" class="wrapper style1 special">
-				<div class="inner">
-					<h2>Notice</h2>
-					<figure>
-					    <blockquote>
-					        This page is created to support assessment for courses that I teach at Akatsi College of Education, Akatsi. <br>
-									I therefore, entreat my students to desist from engaging in any activity that will either dishonestly improve their results or damage the results of other students. <br>
-									Please note that, all responses collated through this page shall be used solely for academic purposes.
-					    </blockquote>
-					    <footer>
-					        <cite class="author">Samuel Dodzi Akama</cite>
-					        <cite class="company">Tutor, AkatsiCoE</cite>
-					    </footer>
-					</figure>
-				</div>
-			</section>
+				<!-- My mailto -->
+				<form class="form-horizontal mymailform" method="POST" action="https://formspree.io/dodzison@gmail.com">
 
+					<div class="form-group">
+						<label for="user-name" class="col-lg-2 control-label">Name
 
-			<!-- Testimonials -->
-			<div class="container">
-				<section>
-					<div class="page-header">
-						<h3 class="text-center text-primary">Testimonials </h3>
-						<h2 class="text-primary text-center"><small>I teach with passion and I focus on students&apos; understanding of concepts. Over the years, I have received a lot of commendations for my style of teaching. Below are a few testimonials. </small> </h2>
-					</div>
-						<div class="row">
-							<div class="col-lg-4">
-							<blockquote>
-								<p><h2><small>Edmund Agbadzah</small></h2>
-									&quot;Learning ICT can be compared to sport. One can only get better through practice.
-									Samuel makes this fun by combining industry experience with theory.&quot;
-								</p>
-								<footer>Tutor: AkatsiCoE</footer>
-							</blockquote>
-							<div class="">
-								<img src="images/pic04.jpg" alt="" class="img-responsive img-circle myimgcenter" />
-							</div>
-							</div>
-							<div class="col-lg-4">
-							<blockquote>
-								<p><h2><small>Eric Robertson Yaw I</small></h2>
-									&quot;Samuel&apos;s lessons are engaging, fun and will give you the needed confidence for the world of work.
-									I have always enjoyed his good presentations, most especially when we co-present.&quot;
-
-								</p>
-								<footer>CEO: <a href="http://teamcodeways.com/" target="_blank" style="text-decoration:none">Codeways</a></footer>
-							</blockquote>
-							<div class="">
-								<img src="images/pic03.jpg" alt="" class="img-responsive img-circle myimgcenter" />
-							</div>
-							</div>
-
-							<div class="col-lg-4">
-							<blockquote>
-								<p><h2><small>Onore Akortia</small></h2>
-									&quot;Samuel is an inspiring young creative teacher. His mastery of the courses
-									he teaches coupled with his enthusiasm makes his lessons interesting and easy to recall.&quot;
-								</p>
-								<footer>SRC president: AkatsiCoE</footer>
-							</blockquote>
-							<div class="">
-								<img src="images/pic02.jpg" alt="" class="img-responsive img-circle myimgcenter" />
-							</div>
-
-							</div>
+		  				</label>
+						<div class="col-lg-10">
+							<input type="text" name="user-name" class="form-control" id="user-name" placeholder="Enter your name">
 						</div>
+					</div>
+					<div class="form-group">
+						<label for="user-email" class="col-lg-2 control-label">Email
 
-				</section>
+		  				</label>
+						<div class="col-lg-10">
+							<input type="text" name="user-email" class="form-control" id="user-email" placeholder="Enter your email address">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="user-phone" class="col-lg-2 control-label">Telephone
+
+		  				</label>
+						<div class="col-lg-10">
+							<input type="text" name="user-phone" class="form-control" id="user-name" placeholder="Enter your phone number ">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="user-message" class="col-lg-2 control-label">Any message
+
+		  				</label>
+						<div class="col-lg-10">
+							<textarea name="user-area" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-lg-5 col-lg-offset-2">
+							<button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o" aria-hidden="true"></i> Submit</button>
+							<button type="reset" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></i> Reset</button>
+						</div>
+					</div>
+
+				</form>
+
 
 			</div>
 
+		</div>
+	</div>
 
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<h2>Get In Touch</h2>
-					<ul class="actions">
-						<li><a href="https://api.whatsapp.com/send?phone=233508400300"><span class="icon fa-whatsapp">&nbsp;</span><span class="icon fa-phone"></span> (050) 840-0300</a></li>
-						<li><span class="icon fa-envelope"></span> <a href="mailto:dodzison@gmail.com">dodzison@gmail.com</a></li>
-						<li><span class="icon fa-map-marker"></span> C/O Akatsi College of Education, PMB, Akatsi</li>
-					</ul>
+
+
+	<!-- One -->
+
+	<section id="one" class="wrapper">
+		<div class="inner flex flex-3">
+			<div class="flex-item left">
+				<div>
+					<h3>Prompt feedback</h3>
+					<h2><small>Quiz scores may be displayed on a screen or sent to student&apos;s email address</small></h2>
 				</div>
-				<div class="copyright" style="font-size:14px" font-weight:"bold">
-					&copy; S.D. Akama, 2018. All rights reserved
+				<div>
+					<h3>convenient</h3>
+					<h2><small>Quizzes can be taken at anyplace that a student finds convenient</small></h2>
 				</div>
-			</footer>
+			</div>
+			<div class="flex-item image fit round">
+				<img src="images/pic01.jpg" alt="" />
+			</div>
+			<div class="flex-item right">
+				<div>
+					<h3>Mobile friendly</h3>
+					<h2><small>The quiz page is supported by multiple devices. <br>The page is lightweight and loads fast.</small></h2>
+				</div>
+				<div>
+					<h3>Timed quizzes</h3>
+					<h2><small>Quiz responses can not be submitted after some stipulated time</small></h2>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Two -->
+	<section id="two" class="wrapper style1 special">
+		<div class="inner">
+			<h2>Notice</h2>
+			<figure>
+				<blockquote>
+					This page is created to support assessment for courses that I teach at Akatsi College of Education, Akatsi. <br> I therefore, entreat my students to desist from engaging in any activity that will either dishonestly improve their results or damage
+					the results of other students. <br> Please note that, all responses collated through this page shall be used solely for academic purposes.
+				</blockquote>
+				<footer>
+					<cite class="author">Samuel Dodzi Akama</cite>
+					<cite class="company">Tutor, AkatsiCoE</cite>
+				</footer>
+			</figure>
+		</div>
+	</section>
 
-	</body>
+
+	<!-- Testimonials -->
+	<div class="container">
+		<section>
+			<div class="page-header">
+				<h3 class="text-center text-primary">Testimonials </h3>
+				<h2 class="text-primary text-center"><small>I teach with passion and I focus on students&apos; understanding of concepts. Over the years, I have received a lot of commendations for my style of teaching. Below are a few testimonials. </small> </h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<blockquote>
+						<p>
+							<h2><small>Edmund Agbadzah</small></h2> &quot;Learning ICT can be compared to sport. One can only get better through practice. Samuel makes this fun by combining industry experience with theory.&quot;
+						</p>
+						<footer>Tutor: AkatsiCoE</footer>
+					</blockquote>
+					<div class="">
+						<img src="images/pic04.jpg" alt="" class="img-responsive img-circle myimgcenter" />
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<blockquote>
+						<p>
+							<h2><small>Eric Robertson Yaw I</small></h2> &quot;Samuel&apos;s lessons are engaging, fun and will give you the needed confidence for the world of work. I have always enjoyed his good presentations, most especially when we co-present.&quot;
+
+						</p>
+						<footer>CEO: <a href="http://teamcodeways.com/" target="_blank" style="text-decoration:none">Codeways</a></footer>
+					</blockquote>
+					<div class="">
+						<img src="images/pic03.jpg" alt="" class="img-responsive img-circle myimgcenter" />
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<blockquote>
+						<p>
+							<h2><small>Onore Akortia</small></h2> &quot;Samuel is an inspiring young creative teacher. His mastery of the courses he teaches coupled with his enthusiasm makes his lessons interesting and easy to recall.&quot;
+						</p>
+						<footer>SRC president: AkatsiCoE</footer>
+					</blockquote>
+					<div class="">
+						<img src="images/pic02.jpg" alt="" class="img-responsive img-circle myimgcenter" />
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+
+
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<h2>Get In Touch</h2>
+			<ul class="actions">
+				<li><a href="https://api.whatsapp.com/send?phone=233508400300"><span class="icon fa-whatsapp">&nbsp;</span><span class="icon fa-phone"></span> (050) 840-0300</a></li>
+				<li><span class="icon fa-envelope"></span> <a href="#" data-toggle="modal" data-target="#mymail">dodzison@gmail.com</a></li>
+				<li><span class="icon fa-map-marker"></span> C/O Akatsi College of Education, PMB, Akatsi</li>
+			</ul>
+		</div>
+		<div class="copyright" style="font-size:14px" font-weight: "bold">
+			&copy; S.D. Akama, 2018. All rights reserved
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
