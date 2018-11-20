@@ -9,6 +9,37 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Drift installation -->
+	<!-- Start of Async Drift Code -->
+	<script>
+	"use strict";
+
+	!function() {
+	  var t = window.driftt = window.drift = window.driftt || [];
+	  if (!t.init) {
+	    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+	    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+	    t.factory = function(e) {
+	      return function() {
+	        var n = Array.prototype.slice.call(arguments);
+	        return n.unshift(e), t.push(n), t;
+	      };
+	    }, t.methods.forEach(function(e) {
+	      t[e] = t.factory(e);
+	    }), t.load = function(t) {
+	      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+	      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+	      var i = document.getElementsByTagName("script")[0];
+	      i.parentNode.insertBefore(o, i);
+	    };
+	  }
+	}();
+	drift.SNIPPET_VERSION = '0.3.1';
+	drift.load('47uawrkebx3a');
+	</script>
+	<!-- End of Async Drift Code -->
+	<!-- End of Drift installation  -->
 </head>
 
 <body>
@@ -32,9 +63,9 @@
 
 	<!-- Banner -->
 	<section id="banner">
-		<div class="content">
+		<div class="content myabout">
 			<h1>Welcome, dear student</h1>
-			<p style="color:dimgray">This website is for administering quizzes for courses being taught by Samuel Dodzi Akama.<br> Click on the button below to take a quiz</p>
+			<p>This website is for administering quizzes for courses being taught by Samuel Dodzi Akama.<br> Click on the button below to take a quiz</p>
 
 			<ul class="actions">
 				<li><a href="#" class="button scrolly" data-toggle="modal" data-target="#modalnotice">Take a quiz</a></li>
@@ -66,74 +97,13 @@
 	</div>
 
 	<!-- Modadl quiz available -->
-	<!-- Modal contact me -->
-	<div class="modal fade" id="mymail" role="dialog">
-		<div class="modal-dialog">
-
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title text-center">Send me an email</h4>
-				</div>
-
-				<!-- My mailto -->
-				<form class="form-horizontal mymailform" method="POST" action="https://formspree.io/dodzison@gmail.com">
-
-					<div class="form-group">
-						<label for="user-name" class="col-lg-2 control-label">Name
-
-		  				</label>
-						<div class="col-lg-10">
-							<input type="text" name="user-name" class="form-control" id="user-name" placeholder="Enter your name">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="user-email" class="col-lg-2 control-label">Email
-
-		  				</label>
-						<div class="col-lg-10">
-							<input type="text" name="user-email" class="form-control" id="user-email" placeholder="Enter your email address">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="user-phone" class="col-lg-2 control-label">Telephone
-
-		  				</label>
-						<div class="col-lg-10">
-							<input type="text" name="user-phone" class="form-control" id="user-name" placeholder="Enter your phone number ">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="user-message" class="col-lg-2 control-label">Any message
-
-		  				</label>
-						<div class="col-lg-10">
-							<textarea name="user-area" id="user-message" class="form-control" cols="20" rows="5" placeholder="Enter your message"></textarea>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-lg-5 col-lg-offset-2">
-							<button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o" aria-hidden="true"></i> Submit</button>
-							<button type="reset" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></i> Reset</button>
-						</div>
-					</div>
-
-				</form>
-
-
-			</div>
-
-		</div>
-	</div>
-
 
 
 
 	<!-- One -->
 
 	<section id="one" class="wrapper">
-		<div class="inner flex flex-3">
+		<div class="inner flex flex-3 myabout">
 			<div class="flex-item left">
 				<div>
 					<h3>Prompt feedback</h3>
@@ -161,7 +131,7 @@
 	</section>
 
 	<!-- Two -->
-	<section id="two" class="wrapper style1 special">
+	<section id="two" class="wrapper style1 special myabout">
 		<div class="inner">
 			<h2>Notice</h2>
 			<figure>
@@ -179,11 +149,11 @@
 
 
 	<!-- Testimonials -->
-	<div class="container">
+	<div class="container myabout">
 		<section>
 			<div class="page-header">
 				<h3 class="text-center text-primary">Testimonials </h3>
-				<h2 class="text-primary text-center"><small>I teach with passion and I focus on students&apos; understanding of concepts. Over the years, I have received a lot of commendations for my style of teaching. Below are a few testimonials. </small> </h2>
+				<h2 class="text-center"><small>I teach with passion and I focus on students&apos; understanding of concepts. Over the years, I have received a lot of commendations for my style of teaching. Below are a few testimonials. </small> </h2>
 			</div>
 			<div class="row">
 				<div class="col-lg-4">
@@ -232,18 +202,91 @@
 
 	<!-- Footer -->
 	<footer id="footer">
-		<div class="inner">
-			<h2>Get In Touch</h2>
-			<ul class="actions">
-				<li><a href="https://api.whatsapp.com/send?phone=233508400300"><span class="icon fa-whatsapp">&nbsp;</span><span class="icon fa-phone"></span> (050) 840-0300</a></li>
-				<li><span class="icon fa-envelope"></span> <a href="#" data-toggle="modal" data-target="#mymail">dodzison@gmail.com</a></li>
-				<li><span class="icon fa-map-marker"></span> C/O Akatsi College of Education, PMB, Akatsi</li>
-			</ul>
+
+		<div class="container">
+			<section>
+				<div class="page-header" id="Contact">
+					<h2>Get in Touch</h2>
+					<p>Send me a msessage or contact me through the address below</p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+
+						<address style="text-align:left;">
+					  			Akatsi College of Education</br>
+					  			P.M.B. </br>
+					  			Akatsi - Ghana </br>
+					  		<a href="https://api.whatsapp.com/send?phone=233508400300"><i class="fa fa-phone" aria-hidden="true"></i> <i class="fa fa-whatsapp" aria-hidden="true"></i> 050 840 0300</a></br>
+			                                        <i class="fa fa-envelope" aria-hidden="true"></i> dodzison@gmail.com</br>
+					  			<a href="https://www.facebook.com/dodzison" target="_blank" style="text-decoration:none;"><i class="fa fa-facebook-official" aria-hidden="true"></i> facebook</a>
+			                                      </br>
+			                                       <a href="https://www.twitter.com/dodzison" target="_blank" style="text-decoration:none;"><i class="fa fa-twitter" aria-hidden="true"></i> twitter</a>
+
+
+
+					  		</address>
+					</div>
+					<div class="col-md-8 myfooter">
+						<form class="form-horizontal" method="POST" action="https://formspree.io/dodzison@gmail.com">
+							<div class="form-group">
+								<label for="user-name" class="col-lg-2 control-label">Name
+
+					  				</label>
+								<div class="col-lg-10">
+									<input type="text" name="user-name" class="form-control" id="user-name" placeholder="Enter name or student ID" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="user-email" class="col-lg-2 control-label">Email
+
+					  				</label>
+								<div class="col-lg-10">
+									<input type="text" name="user-email" class="form-control footerbg" id="user-email" placeholder="Enter your email address">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="user-phone" class="col-lg-2 control-label">Telephone
+
+					  				</label>
+								<div class="col-lg-10">
+									<input type="text" name="user-phone" class="form-control" id="user-phone" placeholder="Enter your phone number ">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="user-message" class="col-lg-2 control-label">Message
+
+					  				</label>
+								<div class="col-lg-10">
+									<textarea name="user-message" id="user-message" class="form-control" cols="20" rows="5" placeholder="Enter your message" required></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-5 col-lg-offset-2">
+									<button type="submit" class="btn button "><i class="fa fa-envelope-o" aria-hidden="true"></i> Submit</button>
+									<button type="reset" class="btn button"><i class="fa fa-refresh" aria-hidden="true"></i></i> Reset</button>
+								</div>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</section>
+
 		</div>
+
+
 		<div class="copyright" style="font-size:14px" font-weight: "bold">
 			&copy; S.D. Akama, 2018. All rights reserved
 		</div>
 	</footer>
+
+
+	<!-- <ul class="actions">
+					<li><a href="https://api.whatsapp.com/send?phone=233508400300"><span class="icon fa-phone fa-whatsapp">&nbsp;</span><span class="icon fa-phone"></span> (050) 840-0300</a></li>
+					<li><span class="icon fa-envelope"></span> dodzison@gmail.com</li>
+					<li><span class="icon fa-map-marker"></span> C/O Akatsi College of Education, PMB, Akatsi</li>
+				</ul> -->
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>

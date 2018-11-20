@@ -1654,6 +1654,13 @@
 		font-weight: 300;
 		line-height: 1.65;
 	}
+  .myabout{
+    color: #767d85;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 300;
+		line-height: 1.65;
+  }
 
 		@media screen and (max-width: 1680px) {
 
@@ -3178,6 +3185,13 @@
 		#footer h2 {
 			color: #fff;
 		}
+    #footer label{
+      color: #c8e7f0;
+    }
+    #footer #user-message{
+      background: #25a2c3;
+      color: #c8e7f0;
+    }
 
 		#footer .icon {
 			color: #f6755e;
