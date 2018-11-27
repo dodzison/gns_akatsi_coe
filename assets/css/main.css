@@ -3193,7 +3193,9 @@
       background: #25a2c3;
 	color: #c8e7f0;
     }
-
+  #footer #user-message{
+       color: #c8e7f0;
+    }
 		#footer .icon {
 			color: #f6755e;
 		}
