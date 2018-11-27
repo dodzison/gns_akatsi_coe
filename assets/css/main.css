@@ -3188,9 +3188,9 @@
     #footer label{
       color: #c8e7f0;
     }
-    #footer #user-message{
+   #user-name, #user-email, #user-phone, #user-message{
+      border: 1px solid #c8e7f0;
       background: #25a2c3;
-      color: #c8e7f0;
     }
 
 		#footer .icon {
